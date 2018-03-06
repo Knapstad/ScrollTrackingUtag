@@ -11,7 +11,7 @@ polls = window.setInterval(function()
 {
 try {
 		var winmax = document.body.scrollHeight - window.innerHeight
-    	scrolled = window.pageYOffset/winmax;
+    		scrolled = window.pageYOffset/winmax;
     	
 	if ( scrolled > 0.97 && scrolledTo100 == false){
 		scrolledTo100 = true;
